@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1750213591 source:c:\users\thiag\documents\puc\codeblocks\biblioteca\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<graphics.h>
+	<windows.h>
+
+1748457082 source:c:\users\thiag\documents\puc\codeblocks\biblioteca\nova_janela.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<graphics.h>
+	<windows.h>
+
