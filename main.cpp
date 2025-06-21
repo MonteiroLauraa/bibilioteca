@@ -16,144 +16,144 @@ void preencherEstante(struct livro estante[4][5])
     strcpy(estante[0][0].autor, "Stephen King");
     strcpy(estante[0][0].genero, "Terror");
     strcpy(estante[0][0].capa, "iluminado.jpg");
-    strcpy(estante[0][0].comentario, "Jack Torrance leva sua famÃ­lia ao isolado Hotel Overlook para ser zelador no inverno.LÃ¡, forÃ§as sobrenaturais influenciam sua mente jÃ¡ instÃ¡vel.Seu filho Danny, com poderes psÃ­quicos, sente a presenÃ§a maligna do lugar.O hotel revela visÃµes perturbadoras e histÃ³rias de violÃªncia.Jack enlouquece, colocando a vida da famÃ­lia em risco. ");
     strcpy(estante[0][0].ano, "1977");
+    strcpy(estante[0][0].comentario, "Jack Torrance leva sua família ao isolado Hotel Overlook para ser zelador no inverno.Lá, forças sobrenaturais influenciam sua mente já instável.Seu filho Danny, com poderes psíquicos, sente a presença maligna do lugar.O hotel revela visões perturbadoras e histórias de violência.Jack enlouquece, colocando a vida da família em risco. ");
 
     strcpy(estante[0][1].titulo, "It: A Coisa");
     strcpy(estante[0][1].autor, "Stephen King");
     strcpy(estante[0][1].genero, "Terror");
     strcpy(estante[0][1].capa, "it.jpg");
-    strcpy(estante[0][1].comentario, "Em Derry, crianÃ§as desaparecem misteriosamente a cada 27 anos.Um grupo de amigos enfrenta uma entidade que assume a forma de seus maiores medos.Pennywise, o palhaÃ§o danÃ§arino, Ã© a forma mais recorrente da criatura.Eles derrotam \"A Coisa\" quando crianÃ§as, mas ela retorna anos depois.JÃ¡ adultos, eles se reÃºnem para enfrentar novamente o terror. ");
     strcpy(estante[0][1].ano, "1986");
+    strcpy(estante[0][1].comentario, "Em Derry, crianças desaparecem misteriosamente a cada 27 anos.Um grupo de amigos enfrenta uma entidade que assume a forma de seus maiores medos.Pennywise, o palhaço dançarino, é a forma mais recorrente da criatura.Eles derrotam \"A Coisa\" quando crianças, mas ela retorna anos depois.Já adultos, eles se reúnem para enfrentar novamente o terror. ");
 
-    strcpy(estante[0][2].titulo, "A Casa ");
+    strcpy(estante[0][2].titulo, " A Casa ");
     strcpy(estante[0][2].autor, "Andre Vianco");
     strcpy(estante[0][2].genero, "Terror");
     strcpy(estante[0][2].capa, "casa.jpg");
-    strcpy(estante[0][2].comentario, " Um grupo Ã© convidado a investigar a mansÃ£o Hill House.A casa mostra-se viva, com eventos estranhos e atmosfera opressiva.Eleanor, sensÃ­vel e solitÃ¡ria, se conecta profundamente com o lugar.As manifestaÃ§Ãµes sobrenaturais aumentam, afetando o equilÃ­brio mental dos hÃ³spedes.O horror psicolÃ³gico se intensifica atÃ© um desfecho trÃ¡gico. ");
     strcpy(estante[0][2].ano, "2002");
+    strcpy(estante[0][2].comentario, " Um grupo é convidado a investigar a mansão Hill House.A casa mostra-se viva, com eventos estranhos e atmosfera opressiva.Eleanor, sensível e solitária, se conecta profundamente com o lugar.As manifestações sobrenaturais aumentam, afetando o equilíbrio mental dos hóspedes.O horror psicológico se intensifica até um desfecho trágico. ");
 
-    strcpy(estante[0][3].titulo, "AssombraÃ§Ã£o ");
+    strcpy(estante[0][3].titulo, " Assombracao ");
     strcpy(estante[0][3].autor, "Joe Hill");
     strcpy(estante[0][3].genero, "Terror");
     strcpy(estante[0][3].capa, "assombracao.jpg");
-    strcpy(estante[0][3].comentario, "Uma famÃ­lia descobre que sua casa Ã© maior por dentro do que por fora.CÃ¢maras e corredores surgem misteriosamente, levando Ã  escuridÃ£o.ExploraÃ§Ãµes revelam um abismo sem fim e eventos inexplicÃ¡veis.A narrativa Ã© complexa, com mÃºltiplos pontos de vista e metalinguagem.O terror cresce conforme a casa consome a sanidade de todos. ");
     strcpy(estante[0][3].ano, "2019");
+    strcpy(estante[0][3].comentario, "Uma família descobre que sua casa é maior por dentro do que por fora.Câmaras e corredores surgem misteriosamente, levando à escuridão.Explorações revelam um abismo sem fim e eventos inexplicáveis.A narrativa é complexa, com múltiplos pontos de vista e metalinguagem.O terror cresce conforme a casa consome a sanidade de todos. ");
 
-    strcpy(estante[0][4].titulo, "O Exorcista ");
+    strcpy(estante[0][4].titulo, " O Exorcista ");
     strcpy(estante[0][4].autor, "William Peter Blatty");
     strcpy(estante[0][4].genero, "Terror");
     strcpy(estante[0][4].capa, "exorcista.jpg");
-    strcpy(estante[0][4].comentario, "A jovem Regan comeÃ§a a apresentar comportamentos estranhos e violentos.Sua mÃ£e busca explicaÃ§Ãµes mÃ©dicas e psiquiÃ¡tricas, sem sucesso.Um padre, com ajuda de um exorcista experiente, Ã© chamado para ajudÃ¡-la.Descobre-se que ela estÃ¡ possuÃ­da por uma entidade demonÃ­aca.O exorcismo Ã© brutal e arriscado, testando fÃ© e resistÃªncia atÃ© o fim. ");
     strcpy(estante[0][4].ano, "1971");
+    strcpy(estante[0][4].comentario, "A jovem Regan começa a apresentar comportamentos estranhos e violentos.Sua mãe busca explicações médicas e psiquiátricas, sem sucesso.Um padre, com ajuda de um exorcista experiente, é chamado para ajudá-la.Descobre-se que ela está possuída por uma entidade demoníaca.O exorcismo é brutal e arriscado, testando fé e resistência até o fim. ");
 
-    // Linha 1 - Romance
-    strcpy(estante[1][0].titulo, "Orgulho e Preconceito ");
+// Linha 1 - Romance
+    strcpy(estante[1][0].titulo, " Orgulho e Preconceito ");
     strcpy(estante[1][0].autor, "Jane Austen");
     strcpy(estante[1][0].genero, "Romance");
     strcpy(estante[1][0].capa, "orgulhoepreconceito.jpg");
-    strcpy(estante[1][0].comentario, "Elizabeth Bennet vive em uma sociedade onde casamentos sÃ£o essenciais para estabilidade social.Ela conhece o reservado Sr. Darcy, e os dois se julgam mal Ã  primeira vista.Com o tempo, ambos enfrentam seus prÃ³prios preconceitos.O orgulho dele e a visÃ£o crÃ­tica dela criam conflitos e amadurecimento.O romance destaca temas como classe, carÃ¡ter e amor verdadeiro." );
     strcpy(estante[1][0].ano, "1813");
+    strcpy(estante[1][0].comentario, "Elizabeth Bennet vive em uma sociedade onde casamentos são essenciais para estabilidade social.Ela conhece o reservado Sr. Darcy, e os dois se julgam mal à primeira vista.Com o tempo, ambos enfrentam seus próprios preconceitos.O orgulho dele e a visão crítica dela criam conflitos e amadurecimento.O romance destaca temas como classe, caráter e amor verdadeiro. ");
 
-    strcpy(estante[1][1].titulo, "Romeu e Julieta ");
+    strcpy(estante[1][1].titulo, " Romeu e Julieta ");
     strcpy(estante[1][1].autor, "William Shakespeare");
     strcpy(estante[1][1].genero, "Romance");
-    strcpy(estante[1][1].capa, "romeuejuleita.jpg");
-    strcpy(estante[1][1].comentario, "Dois jovens de famÃ­lias rivais, MontÃ©quio e Capuleto, se apaixonam.Apesar da paixÃ£o intensa, o Ã³dio entre as famÃ­lias impede o amor.Eles se casam em segredo e fazem planos para fugir juntos.Um mal-entendido leva Ã  morte trÃ¡gica dos dois amantes.A peÃ§a Ã© um Ã­cone do amor proibido e das consequÃªncias do Ã³dio. ");
+    strcpy(estante[1][1].capa, "romeuejulieta.jpg");
     strcpy(estante[1][1].ano, "1597");
+    strcpy(estante[1][1].comentario, "Dois jovens de famílias rivais, Montéquio e Capuleto, se apaixonam.Apesar da paixão intensa, o ódio entre as famílias impede o amor.Eles se casam em segredo e fazem planos para fugir juntos.Um mal-entendido leva à morte trágica dos dois amantes.A peça é um ícone do amor proibido e das consequências do ódio. ");
 
-    strcpy(estante[1][2].titulo, " Como Eu Era Antes de VocÃª ");
+    strcpy(estante[1][2].titulo, " Como Eu Era Antes de Voce ");
     strcpy(estante[1][2].autor, "Jojo Moyes");
     strcpy(estante[1][2].genero, "Romance");
     strcpy(estante[1][2].capa, "comoeueraantesdevoce.jpg");
-    strcpy(estante[1][2].comentario, "Louisa Clark aceita cuidar de Will Traynor, um tetraplÃ©gico amargurado.Aos poucos, eles se aproximam e ela tenta devolver-lhe a vontade de viver.Lou descobre que Will deseja realizar suicÃ­dio assistido.Entre discussÃµes, carinho e crescimento pessoal, nasce um forte amor. ");
     strcpy(estante[1][2].ano, "2012");
+    strcpy(estante[1][2].comentario, "Louisa Clark aceita cuidar de Will Traynor, um tetraplégico amargurado.Aos poucos, eles se aproximam e ela tenta devolver-lhe a vontade de viver.Lou descobre que Will deseja realizar suicídio assistido.Entre discussões, carinho e crescimento pessoal, nasce um forte amor. ");
 
-    strcpy(estante[1][3].titulo, " O Morro dos Ventos Uivantes ");
-    strcpy(estante[1][3].autor, "Emily BrontÃ«");
+    strcpy(estante[1][3].titulo, "O Sol é Para Todos");
+    strcpy(estante[1][3].autor, "Harper Lee");
     strcpy(estante[1][3].genero, "Romance");
-    strcpy(estante[1][3].capa, "omorrodosventosuivantes.jpg");
-    strcpy(estante[1][3].comentario,"Heathcliff Ã© adotado por uma famÃ­lia rica e se apaixona por Catherine.SeparaÃ§Ãµes, vinganÃ§a e orgulho alimentam um ciclo destrutivo entre geraÃ§Ãµes.O amor entre Heathcliff e Catherine Ã© intenso e sombrio.A histÃ³ria Ã© narrada por terceiros, revelando as tragÃ©dias da famÃ­lia.Ã‰ um clÃ¡ssico gÃ³tico sobre paixÃ£o, obsessÃ£o e rancor. ");
-    strcpy(estante[1][3].ano, "1847");
+    strcpy(estante[1][3].capa, "osoleparatodos.jpg");
+    strcpy(estante[1][3].comentario, "Na década de 1930, na cidade fictícia de Maycomb, Alabama, a jovem Scout Finch observa o mundo ao seu redor enquanto seu pai, Atticus Finch, defende um homem negro acusado injustamente de estupro. O livro aborda racismo, justiça e crescimento moral através do olhar inocente de uma criança. ");
+    strcpy(estante[1][3].ano, "1960");
 
-    strcpy(estante[1][4].titulo, "A Culpa Ã© das Estrelas");
-    strcpy(estante[1][4].autor, "John Green");
+    strcpy(estante[1][4].titulo, "Tudo é Rio");
+    strcpy(estante[1][4].autor, "Carla Madeira");
     strcpy(estante[1][4].genero, "Romance");
-    strcpy(estante[1][4].capa, "culpadasestrelas.jpg");
-    strcpy(estante[1][4].comentario,"Hazel Grace, com cÃ¢ncer terminal, conhece Augustus Waters num grupo de apoio.Eles compartilham amor por literatura e vivem uma conexÃ£o profunda.VÃ£o juntos Ã  Holanda para conhecer o autor favorito de Hazel.Vivem momentos intensos apesar da doenÃ§a e das limitaÃ§Ãµes.A histÃ³ria fala sobre amor, perda, juventude e eternidade em meio Ã  finitude. ");
-    strcpy(estante[1][4].ano, "2012");
+    strcpy(estante[1][4].capa, "tudoerio.jpg"); // imagem genérica, altere se tiver uma específica
+    strcpy(estante[1][4].comentario, "Em uma narrativa intensa e poética, o livro acompanha o triângulo entre Dalva, Venâncio e Lucy. O enredo atravessa perdas, traumas e perdão, explorando a complexidade das relações humanas. Com linguagem lírica, a história trata da dor, do amor e da tentativa de redenção. ");
+    strcpy(estante[1][4].ano, "2014");
 
-    // Linha 2 - Poesia
+// Linha 2 - Poesia
     strcpy(estante[2][0].titulo, "Alguma Poesia");
     strcpy(estante[2][0].autor, "Carlos Drummond de Andrade");
     strcpy(estante[2][0].genero, "Poesia");
     strcpy(estante[2][0].capa, "algumapoesia.jpg");
-    strcpy(estante[2][0].comentario,"Primeiro livro de Drummond, marca o inÃ­cio do modernismo mineiro.ReÃºne poemas com linguagem coloquial, ironia e introspecÃ§Ã£o.Questiona o papel do poeta e os dilemas da existÃªncia.Traz o famoso poema No meio do caminho.Inaugura um estilo Ãºnico na poesia brasileira. ");
     strcpy(estante[2][0].ano, "1930");
+    strcpy(estante[2][0].comentario, "Primeiro livro de Drummond, marca o início do modernismo mineiro.Reúne poemas com linguagem coloquial, ironia e introspecção.Questiona o papel do poeta e os dilemas da existência.Traz o famoso poema No meio do caminho.Inaugura um estilo único na poesia brasileira. ");
 
     strcpy(estante[2][1].titulo, "Poemas Escolhidos");
-    strcpy(estante[2][1].autor, "CecÃ­lia Meireles");
+    strcpy(estante[2][1].autor, "Cecília Meireles");
     strcpy(estante[2][1].genero, "Poesia");
     strcpy(estante[2][1].capa, "poemasescolhidos.jpg");
-    strcpy(estante[2][1].comentario,"ReÃºne os versos mais representativos do poeta barroco baiano.GregÃ³rio Ã© conhecido por sua sÃ¡tira mordaz e crÃ­tica social.Alterna entre poesia erÃ³tica, religiosa e polÃ­tica.Chamado de Boca do Inferno por seu tom provocador.Suas poesias revelam o Brasil colonial com ironia e forÃ§a. ");
     strcpy(estante[2][1].ano, "1700");
+    strcpy(estante[2][1].comentario, "Reúne os versos mais representativos do poeta barroco baiano.Gregório é conhecido por sua sátira mordaz e crítica social.Alterna entre poesia erótica, religiosa e política.Chamado de Boca do Inferno por seu tom provocador.Suas poesias revelam o Brasil colonial com ironia e força. ");
 
     strcpy(estante[2][2].titulo, "A Rosa do Povo");
     strcpy(estante[2][2].autor, "Carlos Drummond de Andrade");
     strcpy(estante[2][2].genero, "Poesia");
     strcpy(estante[2][2].capa, "arosadodpovo.jpg");
-    strcpy(estante[2][2].comentario,"Escrito durante a Segunda Guerra Mundial, une o pessoal ao polÃ­tico.Drummond reflete angÃºstias do mundo moderno e o sofrimento coletivo.A rosa simboliza esperanÃ§a, mesmo em tempos sombrios.A linguagem Ã© mais direta, com tons sociais e existenciais.Ã‰ uma das obras mais densas e humanas do autor. ");
     strcpy(estante[2][2].ano, "1945");
+    strcpy(estante[2][2].comentario, "Escrito durante a Segunda Guerra Mundial, une o pessoal ao político.Drummond reflete angústias do mundo moderno e o sofrimento coletivo.A rosa simboliza esperança, mesmo em tempos sombrios.A linguagem é mais direta, com tons sociais e existenciais.É uma das obras mais densas e humanas do autor. ");
 
     strcpy(estante[2][3].titulo, "Sonetos");
-    strcpy(estante[2][3].autor, "VinÃ­cius de Moraes");
+    strcpy(estante[2][3].autor, "Vinicius de Moraes");
     strcpy(estante[2][3].genero, "Poesia");
     strcpy(estante[2][3].capa, "sonetos.jpg");
-    strcpy(estante[2][3].comentario, "ColetÃ¢nea dos sonetos mais famosos do poeta renascentista portuguÃªs.CamÃµes aborda amor idealizado, dor da ausÃªncia e fugacidade do tempo.Com rigor formal, os sonetos revelam beleza e melancolia.Mistura razÃ£o e emoÃ§Ã£o com linguagem refinada.Sua obra influenciou profundamente a literatura de lÃ­ngua portuguesa ");
     strcpy(estante[2][3].ano, "1595");
+    strcpy(estante[2][3].comentario, "Coletânea dos sonetos mais famosos do poeta renascentista português.Camões aborda amor idealizado, dor da ausência e fugacidade do tempo.Com rigor formal, os sonetos revelam beleza e melancolia.Mistura razão e emoção com linguagem refinada.Sua obra influenciou profundamente a literatura de língua portuguesa ");
 
     strcpy(estante[2][4].titulo, "Poema Sujo");
     strcpy(estante[2][4].autor, "Ferreira Gullar");
     strcpy(estante[2][4].genero, "Poesia");
     strcpy(estante[2][4].capa, "poemasujo.jpg");
-    strcpy(estante[2][4].comentario, "Escrito no exÃ­lio durante a ditadura militar brasileira.Ã‰ um longo desabafo sobre memÃ³ria, identidade e polÃ­tica.Gullar mistura lembranÃ§as pessoais com o caos do paÃ­s.O poema tem tom confessional, emocional e de denÃºncia.Ã‰ considerado um dos maiores poemas da literatura brasileira. ");
     strcpy(estante[2][4].ano, "1976");
+    strcpy(estante[2][4].comentario, "Escrito no exílio durante a ditadura militar brasileira.É um longo desabafo sobre memória, identidade e política.Gullar mistura lembranças pessoais com o caos do país.O poema tem tom confessional, emocional e de denúncia.É considerado um dos maiores poemas da literatura brasileira. ");
 
-    // Linha 3 - Fantasia
-    strcpy(estante[3][0].titulo, "O Senhor dos AnÃ©is");
+// Linha 3 - Fantasia
+    strcpy(estante[3][0].titulo, "O Senhor dos Anéis");
     strcpy(estante[3][0].autor, "J.R.R. Tolkien");
     strcpy(estante[3][0].genero, "Fantasia");
     strcpy(estante[3][0].capa, "senhor.jpg");
-    strcpy(estante[3][0].comentario, "Frodo Bolseiro recebe o Um Anel, artefato maligno de Sauron.Ele parte em uma jornada para destruÃ­-lo no vulcÃ£o da Montanha da PerdiÃ§Ã£o.Com seus companheiros, forma a Sociedade do Anel.O livro descreve um mundo riquÃ­ssimo, com elfos, anÃµes, magos e guerras Ã©picas.Ã‰ um marco da literatura fantÃ¡stica, sobre coragem, amizade e sacrifÃ­cio. ");
     strcpy(estante[3][0].ano, "1954");
+    strcpy(estante[3][0].comentario, "Frodo Bolseiro recebe o Um Anel, artefato maligno de Sauron.Ele parte em uma jornada para destruí-lo no vulcão da Montanha da Perdição.Com seus companheiros, forma a Sociedade do Anel.O livro descreve um mundo riquíssimo, com elfos, anões, magos e guerras épicas.É um marco da literatura fantástica, sobre coragem, amizade e sacrifício. ");
 
     strcpy(estante[3][1].titulo, "Harry Potter");
     strcpy(estante[3][1].autor, "J.K. Rowling");
     strcpy(estante[3][1].genero, "Fantasia");
     strcpy(estante[3][1].capa, "harrypotter.jpg");
-    strcpy(estante[3][1].comentario, "Harry descobre aos 11 anos que Ã© um bruxo e vai para Hogwarts.LÃ¡, faz amizades e descobre sua ligaÃ§Ã£o com o vilÃ£o Voldemort.Ele enfrenta desafios mÃ¡gicos e tenta impedir o roubo da Pedra Filosofal.O livro mistura magia, mistÃ©rio e crescimento pessoal.Inicia a saga que marcou geraÃ§Ãµes com temas de amor e coragem. ");
     strcpy(estante[3][1].ano, "1997");
+    strcpy(estante[3][1].comentario, "Harry descobre aos 11 anos que é um bruxo e vai para Hogwarts.Lá, faz amizades e descobre sua ligação com o vilão Voldemort.Ele enfrenta desafios mágicos e tenta impedir o roubo da Pedra Filosofal.O livro mistura magia, mistério e crescimento pessoal.Inicia a saga que marcou gerações com temas de amor e coragem. ");
 
     strcpy(estante[3][2].titulo, "O Nome do Vento");
     strcpy(estante[3][2].autor, "Patrick Rothfuss");
     strcpy(estante[3][2].genero, "Fantasia");
     strcpy(estante[3][2].capa, "nomedovento.jpg");
-    strcpy(estante[3][2].comentario, "Kvothe, um lendÃ¡rio mago e herÃ³i, narra sua histÃ³ria de vida.Desde a infÃ¢ncia com artistas itinerantes atÃ© sua entrada na Universidade.Ele busca entender os Chandrian, seres sombrios ligados Ã  tragÃ©dia em sua vida.Com inteligÃªncia e paixÃ£o, aprende mÃºsica, alquimia e magia.Ã‰ uma fantasia rica e lÃ­rica sobre saber, dor e lenda. ");
     strcpy(estante[3][2].ano, "2007");
+    strcpy(estante[3][2].comentario, "Kvothe, um lendário mago e herói, narra sua história de vida.Desde a infância com artistas itinerantes até sua entrada na Universidade.Ele busca entender os Chandrian, seres sombrios ligados à tragédia em sua vida.Com inteligência e paixão, aprende música, alquimia e magia.É uma fantasia rica e lírica sobre saber, dor e lenda. ");
 
-    strcpy(estante[3][3].titulo, "FundaÃ§Ã£o");
+    strcpy(estante[3][3].titulo, "Fundacao");
     strcpy(estante[3][3].autor, "Isaac Asimov");
     strcpy(estante[3][3].genero, "Fantasia");
     strcpy(estante[3][3].capa, "fundacao.jpg");
-    strcpy(estante[3][3].comentario, "O matemÃ¡tico Hari Seldon prevÃª a queda do ImpÃ©rio GalÃ¡ctico.Para preservar o conhecimento humano, cria a FundaÃ§Ã£o.Ao longo dos sÃ©culos, crises polÃ­ticas e sociais desafiam seu plano.A obra une ciÃªncia, filosofia e histÃ³ria em um universo futurista.Ã‰ um clÃ¡ssico da ficÃ§Ã£o cientÃ­fica sobre previsibilidade e controle social. ");
     strcpy(estante[3][3].ano, "1951");
+    strcpy(estante[3][3].comentario, "O matemático Hari Seldon prevê a queda do Império Galáctico.Para preservar o conhecimento humano, cria a Fundação.Ao longo dos séculos, crises políticas e sociais desafiam seu plano.A obra une ciência, filosofia e história em um universo futurista.É um clássico da ficção científica sobre previsibilidade e controle social. ");
 
     strcpy(estante[3][4].titulo, "Eragon");
     strcpy(estante[3][4].autor, "Christopher Paolini");
     strcpy(estante[3][4].genero, "Fantasia");
     strcpy(estante[3][4].capa, "eragon.jpg");
-    strcpy(estante[3][4].comentario, "Eragon, um jovem fazendeiro, encontra um ovo de dragÃ£o.Quando Saphira nasce, ele descobre ser um Cavaleiro do DragÃ£o.Inicia uma jornada de autoconhecimento e luta contra o impÃ©rio tirÃ¢nico.Com a ajuda de mentores e aliados, enfrenta perigos e magia.Ã‰ uma aventura Ã©pica de coragem, fantasia e amadurecimento. ");
     strcpy(estante[3][4].ano, "2002");
+    strcpy(estante[3][4].comentario, "Eragon, um jovem fazendeiro, encontra um ovo de dragão.Quando Saphira nasce, ele descobre ser um Cavaleiro do Dragão.Inicia uma jornada de autoconhecimento e luta contra o império tirânico.Com a ajuda de mentores e aliados, enfrenta perigos e magia.É uma aventura épica de coragem, fantasia e amadurecimento. ");
 
 }
 
@@ -202,7 +202,7 @@ void quebraLinha (char comentario[1000],int tamanhoMax)
 
 void detectaLivro(int i, struct livro estante[4][5],int x,int y)
 {
-    int j = -1; //defini como um valor q nÃ£o entra nos ifs abaixo pra evitar bug
+    int j = -1; //defini como um valor q não entra nos ifs abaixo pra evitar bug
 
     if (x >= 50 && x <= 220 && y >= 50 && y <= 282) j = 0;
 
@@ -218,25 +218,58 @@ void detectaLivro(int i, struct livro estante[4][5],int x,int y)
     {
         setfillstyle(SOLID_FILL, BLACK);
         bar(10,375,1000,750);
-        outtextxy(400,380,"Detalhes sobre o livro...");
+        settextjustify(CENTER_TEXT, TOP_TEXT);
+        outtextxy(500,380,"Detalhes sobre o livro...");
+        settextjustify(LEFT_TEXT, TOP_TEXT);
         readimagefile(estante[i][j].capa,50,430,260,720);
-        outtextxy(280,450, "TÃ­tulo: ");
-        outtextxy(325,450, estante[i][j].titulo);
+        outtextxy(280,450, "Título: ");
         outtextxy(280,470, "Autor(a): ");
-        outtextxy(340,470, estante[i][j].autor);
-        outtextxy(280,490, "Ano de PublicaÃ§Ã£o:  ");
-        outtextxy(410,490, estante[i][j].ano);
+        outtextxy(280,490, "Ano de Publicação:  ");
         outtextxy(280,540, "Sinopse ======================");
+        outtextxy(325,450, estante[i][j].titulo);
+        outtextxy(340,470, estante[i][j].autor);
+        outtextxy(410,490, estante[i][j].ano);
         quebraLinha(estante[i][j].comentario,90);
     }
 
 }
 
+void iniciaTela(int opcao, char genero[10])
+{
+    struct livro estante[4][5];
+    preencherEstante(estante);
+
+    initwindow(1000, 750, genero);
+    settextjustify(CENTER_TEXT, TOP_TEXT);
+    outtextxy(500,10,"Selecione o seu livro");
+    settextjustify(LEFT_TEXT, TOP_TEXT);
+    mostrarCapas(estante[opcao-1]);
+    outtextxy(5,10,"[   Sair ESC   ]");
+    outtextxy(5,350,"===========================================================================================================================");
+    while (1)
+    {
+        if (GetAsyncKeyState(VK_ESCAPE))
+        {
+            closegraph();
+            break;  // sai do loop e do case quando aperta ESC
+        }
+
+        if (GetAsyncKeyState(VK_LBUTTON))
+        {
+            delay(100);  // pra nn bugar e dar clique duplo
+            int x = mousex();
+            int y = mousey();
+            detectaLivro(opcao-1, estante, x, y);
+        }
+
+        delay(50);  // garantia de q nn vai bugar pq essa função de clique é uma MERDa
+    }
+}
+
 int main()
 {
     int opcao,i,j;
-    struct livro estante[4][5];
-    preencherEstante(estante);
+    char genero[25];
 
     do
     {
@@ -252,108 +285,23 @@ int main()
         switch (opcao)
         {
         case 1: //terror
-            initwindow(1000, 750, "Biblioteca: Terror");
-            outtextxy(420,10,"Selecione o seu livro");
-            mostrarCapas(estante[0]);
-            outtextxy(5,10,"{   Sair (ESC)   }");
-            outtextxy(5,350,"===========================================================================================================================");
-            while (1)
-            {
-                if (GetAsyncKeyState(VK_ESCAPE))
-                {
-                    closegraph();
-                    break;  // sai do loop e do case quando aperta ESC
-                }
-
-                if (GetAsyncKeyState(VK_LBUTTON))
-                {
-                    delay(1000);  // pra nn bugar e dar clique duplo
-                    int x = mousex();
-                    int y = mousey();
-                    detectaLivro(0, estante, x, y);
-                }
-
-                delay(50);  // garantia de q nn vai bugar pq essa funÃ§Ã£o de clique Ã© uma MERDa
-            }
+            strcpy(genero, "Biblioteca: Terror");
+            iniciaTela(opcao,genero);
 
             break;
         case 2: //romance
-            initwindow(1000, 750, "Biblioteca: Romance");
-            outtextxy(420,10,"Selecione o seu livro");
-            mostrarCapas(estante[1]);
-            outtextxy(5,10,"{   Sair (ESC)   }");
-            outtextxy(5,350,"===========================================================================================================================");
-            while (1)
-            {
-                if (GetAsyncKeyState(VK_ESCAPE))
-                {
-                    closegraph();
-                    break;  // sai do loop e do case quando aperta ESC
-                }
-
-                if (GetAsyncKeyState(VK_LBUTTON))
-                {
-                    delay(150);  // pra nn bugar e dar clique duplo
-                    int x = mousex();
-                    int y = mousey();
-                    detectaLivro(1, estante, x, y);
-                }
-
-                delay(50);  // garantia de q nn vai bugar pq essa funÃ§Ã£o de clique Ã© uma MERDa
-            }
+            strcpy(genero, "Biblioteca: Romance");
+            iniciaTela(opcao,genero);
 
             break;
         case 3: //poesia
-            initwindow(1000, 750, "Biblioteca: Poesia");
-            outtextxy(420,10,"Selecione o seu livro");
-            mostrarCapas(estante[2]);
-            outtextxy(5,10,"{   Sair (ESC)   }");
-            outtextxy(5,350,"===========================================================================================================================");
-            while (1)
-            {
-                if (GetAsyncKeyState(VK_ESCAPE))
-                {
-                    closegraph();
-                    break;  // sai do loop e do case quando aperta ESC
-                }
-
-                if (GetAsyncKeyState(VK_LBUTTON))
-                {
-                    delay(150);  // pra nn bugar e dar clique duplo
-                    int x = mousex();
-                    int y = mousey();
-                    detectaLivro(2, estante, x, y);
-                }
-
-                delay(50);  // garantia de q nn vai bugar pq essa funÃ§Ã£o de clique Ã© uma MERDa
-            }
-
+            strcpy(genero, "Biblioteca: Poesia");
+            iniciaTela(opcao,genero);
 
             break;
         case 4: //fantasia
-            initwindow(1000, 750, "Biblioteca: Fantasia");
-            outtextxy(420,10,"Selecione o seu livro");
-            mostrarCapas(estante[3]);
-            outtextxy(5,10,"{   Sair (ESC)   }");
-            outtextxy(5,350,"===========================================================================================================================");
-            while (1)
-            {
-                if (GetAsyncKeyState(VK_ESCAPE))
-                {
-                    closegraph();
-                    break;  // sai do loop e do case quando aperta ESC
-                }
-
-                if (GetAsyncKeyState(VK_LBUTTON))
-                {
-                    delay(150);  // pra nn bugar e dar clique duplo
-                    int x = mousex();
-                    int y = mousey();
-                    detectaLivro(3, estante, x, y);
-                }
-
-                delay(50);  // garantia de q nn vai bugar pq essa funÃ§Ã£o de clique Ã© uma MERDa
-            }
+            strcpy(genero, "Biblioteca: Fantasia");
+            iniciaTela(opcao,genero);
 
             break;
         case 5:
