@@ -51,14 +51,14 @@ void preencherEstante(struct livro estante[4][5])
     strcpy(estante[1][0].titulo, "Orgulho e Preconceito ");
     strcpy(estante[1][0].autor, "Jane Austen");
     strcpy(estante[1][0].genero, "Romance");
-    strcpy(estante[1][0].capa, "livro1.jpg");
+    strcpy(estante[1][0].capa, "orgulhoepreconceito.jpg");
     strcpy(estante[1][0].comentario, "Elizabeth Bennet vive em uma sociedade onde casamentos são essenciais para estabilidade social.Ela conhece o reservado Sr. Darcy, e os dois se julgam mal à primeira vista.Com o tempo, ambos enfrentam seus próprios preconceitos.O orgulho dele e a visão crítica dela criam conflitos e amadurecimento.O romance destaca temas como classe, caráter e amor verdadeiro." );
     strcpy(estante[1][0].ano, "1813");
 
     strcpy(estante[1][1].titulo, "Romeu e Julieta ");
     strcpy(estante[1][1].autor, "William Shakespeare");
     strcpy(estante[1][1].genero, "Romance");
-    strcpy(estante[1][1].capa, "orgulhoepreconceito.jpg");
+    strcpy(estante[1][1].capa, "romeuejuleita.jpg");
     strcpy(estante[1][1].comentario, "Dois jovens de famílias rivais, Montéquio e Capuleto, se apaixonam.Apesar da paixão intensa, o ódio entre as famílias impede o amor.Eles se casam em segredo e fazem planos para fugir juntos.Um mal-entendido leva à morte trágica dos dois amantes.A peça é um ícone do amor proibido e das consequências do ódio. ");
     strcpy(estante[1][1].ano, "1597");
 
@@ -144,7 +144,7 @@ void preencherEstante(struct livro estante[4][5])
     strcpy(estante[3][3].titulo, "Fundação");
     strcpy(estante[3][3].autor, "Isaac Asimov");
     strcpy(estante[3][3].genero, "Fantasia");
-    strcpy(estante[3][3].capa, "livro1.jpg");
+    strcpy(estante[3][3].capa, "fundacao.jpg");
     strcpy(estante[3][3].comentario, "O matemático Hari Seldon prevê a queda do Império Galáctico.Para preservar o conhecimento humano, cria a Fundação.Ao longo dos séculos, crises políticas e sociais desafiam seu plano.A obra une ciência, filosofia e história em um universo futurista.É um clássico da ficção científica sobre previsibilidade e controle social. ");
     strcpy(estante[3][3].ano, "1951");
 
